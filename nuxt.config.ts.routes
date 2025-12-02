@@ -1,0 +1,6 @@
+export default defineRouteRules({
+  '/': { preload: true },
+  '/members': { preload: true },
+  '/matches': { preload: true },
+  '/gallery': { preload: true }
+})
